@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main{
+  font-family: "Ariel", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.all-content{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  background-color:#1f4037;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  border-radius: 20px;
+  
+}
+
+.question-list{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.answers-list{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.question-increment{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.button-style{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 200px;
+  padding: 10px 0 10px 0;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  border: none;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.not-visible{
+  display: none;
+}
+
+.visible{
+  font-size: 25px;
+  font-weight: bold;
+  
+  text-align: center;
+  margin-left: 225px;
+  display: flex;
+  
+  
+  align-items: center;
+  
+}
